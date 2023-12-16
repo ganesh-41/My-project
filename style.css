@@ -9,6 +9,18 @@
 html{
   scroll-behavior: smooth;
 }
+.w3-sidebar{
+   
+}
+  /* Link styles */
+  .w3-sidebar a {
+    display: none;
+  }
+    /* Change link color on hover */
+    .w3-sidebar a:hover {
+    
+        background-color: #f4c6c6;
+      }
 /* css variables */
 :root{
     --navbar-height:59px;
@@ -27,6 +39,20 @@ html{
 #logo img{
     height: 59px;
     margin: 3px 6px;
+}
+/* Toggle button styles */
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.toggle-button span {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 2px;
 }
 
 
@@ -129,8 +155,9 @@ html{
 }
 img{
     margin: auto;
-    display: block; 
-    align-items: center;
+    /* display: block;  */
+    display: flex;
+    /* align-items: right; */
    
   }
 
