@@ -9,9 +9,7 @@
 html{
   scroll-behavior: smooth;
 }
-.w3-sidebar{
-   
-}
+
   /* Link styles */
   .w3-sidebar a {
     display: none;
