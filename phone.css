@@ -91,6 +91,7 @@
      }
      .toggle-button {
          float: left;
+         
       }
       /* logo img */
 #logo img{
@@ -98,8 +99,8 @@
 padding:0 200px;
 }
 .w3-sidebar{
-    height: 100%;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     position: fixed;
     top: 0;
     left: 0;
@@ -117,6 +118,6 @@ padding:0 200px;
     /* Change link color on hover */
     .w3-sidebar a:hover {
     
-        background-color: #f4c6c6;
+        /* background-color: #f4c6c6; */
       }
   }
